@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nightmare Manor</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0e6d2;
+      font-family: 'Trebuchet MS', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #780c0c;
+      padding: 20px;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .rooms {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .room {
+      background-color: #1a1a1a;
+      border: 2px solid #780c0c;
+      border-radius: 10px;
+      width: 230px;
+      padding: 15px;
+      box-shadow: 0 0 10px #780c0c;
+    }
+
+    .room img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .room h3 {
+      color: #cf3434;
+      margin: 10px 0 5px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      padding: 10px;
+    }
+
+    footer a {
+      color: #cf3434;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👻 Nightmare Manor 👻</h1>
+    <p>Dare to enter... if you can handle the fear!</p>
+  </header>
+
+  <section class="content">
+    <!-- explains the premise of the manor -->
+    <h2>Welcome to the Scariest Haunted House in Town!</h2>
+    <p>Our haunted halls, creepy clowns, and ghostly guests await you this Halloween season.</p>
+  </section>
+
+  <section class="rooms">
+    <!-- each room's div-->
+    <div class="room">
+      <h3>The Haunted Hall</h3>
+      <p>Where the walls whisper your name...</p>
+    </div>
+    
+
+    <div class="room">
+      <h3>The Clown Room</h3>
+      <p>They’re not smiling *for* you…</p>
+    </div>
+
+    <div class="room">
+      <h3>Ghost Corridor</h3>
+      <p>Some say a ghost still walks this path…</p>
+    </div>
+
+    <div class="room">
+      <h3>The Dark Forest</h3>
+      <p>Once you go in, you may never come out.</p>
+    </div>
+
+    <div class="room">
+      <h3>Mummy's Tomb</h3>
+      <p>Gold might not be the only thing hiding here.</p>
+    </div>
+    <!-- T7CTF{sp00ky_s3crets_hide_in_plain_sight} -->
+  </section>
+</body>
+</html>
