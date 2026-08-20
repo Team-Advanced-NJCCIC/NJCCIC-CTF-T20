@@ -1,34 +1,68 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>The Forbidden Room</title>
+
     <style>
         body {
-            background-color: orange;
+            background-color: #ff8c00;
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 100px;
+            margin: 0;
+            padding: 0;
         }
 
-        .box {
+        .container {
             background-color: black;
             color: white;
             width: 60%;
-            margin: auto;
+            max-width: 700px;
+            margin: 100px auto;
             padding: 40px;
             border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 21px;
+            line-height: 1.6;
+        }
+
+        .hint {
+            margin-top: 30px;
+            font-size: 17px;
+            color: #ffcc99;
         }
     </style>
 </head>
+
 <body>
 
-    <div class="box">
+    <div class="container">
+
         <h1>👻 The Forbidden Room 🎃</h1>
 
-        <p>The ghost hid the flag somewhere visitors aren't supposed to go.</p>
+        <p>
+            A ghost hid the flag somewhere visitors aren't supposed to go.
+        </p>
 
-        <p>Sometimes websites tell search engines which places to avoid...</p>
+        <p>
+            Can you figure out which hidden page contains it?
+        </p>
+
+        <p class="hint">
+            Hint: Websites sometimes use a file called <strong>robots.txt</strong>
+            to tell search engines which pages they should avoid.
+        </p>
+
     </div>
 
 </body>
 </html>
+```
