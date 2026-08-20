@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /NJCCIC-CTF-T20/basement.html
